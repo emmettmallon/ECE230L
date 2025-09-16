@@ -15,7 +15,7 @@ using an implemented design on your Basys3 boards.
 
 ## Lab Summary
 
-Summarize your learnings from the lab here.
+We learned how to make a K-map from a truth table and be able to make a minterm and maxterm equation from the K-map and be able to implement it onto a Basys3 board.
 
 ## Lab Questions
 
