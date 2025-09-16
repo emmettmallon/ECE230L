@@ -20,8 +20,8 @@ Summarize your learnings from the lab here.
 ## Lab Questions
 
 ### Why are the groups of 1’s (or 0’s) that we select in the KMap able to go across edges?
-
+- The ability for K-maps to wrap around the edges is a consequence of labeling the rows and columns. This specific ordering ensures that cells on opposite edges are logically adjacent, meaning their corresponding binary values differ by only a single bit.
 ### Why are the names Sum of Products and Products of Sums?
-
+- The names come from their logical operations. A Sum of Products combines ANDed (product) terms with an OR (sum) operation, while a Product of Sums combines ORed (sum) terms with an AND (product) operation.
 ### Open the test.v file – how are we able to check that the signals match using XOR?
-
+- We can check if the signals match in test.v by using if-statements to match by leveraging the property that the XOR of two identical bits is 0 and the XOR of two different bits is 1.
