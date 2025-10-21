@@ -14,8 +14,8 @@ In this lab you have learned about multiplexers and demultiplexers.
 ## Lab Questions
 
 ### In plain English describe the function and use of a multiplexer.
-
+- A multiplexer acts like a controllled switch, selecting one of many input signals and sending it to a single output.
 ### In plain English describe the function and use of a demultiplexer.
-
+- A demultiplexer is the opposite of a multiplexer, it takes a single input signals and sends it to multiple outputs.
 ### What other uses might these circuits have? (Think Shannon’s)
-
+- Telecommunications: increased efficiency (sending multiple signals through one line and separating them at the receiving end).
