@@ -73,6 +73,7 @@ module top(
       );
       
       assign led[15:8] = y_out;
+      assign led[7:2] = 6'b0;
       
 
 endmodule
