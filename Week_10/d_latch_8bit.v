@@ -7,7 +7,7 @@ module d_latch_8bit (
     genvar i;
     generate    
         for (i = 0; i < 8; i = i + 1) begin
-          d_latch_8 u_latch( // some error on this line
+          d_latch1 u_latch( // some error on this line
             .D (D[i]),
             .E (E),
             .Q (Q[i])
