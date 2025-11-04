@@ -1,0 +1,18 @@
+module jk_flop(
+    input J, K, CLK,
+    output Q,
+    output nQ
+);
+
+    wire D;
+    
+    assign D = (J & nQ) | (~K & Q);
+    
+    d_flop flip (
+        .D(D),
+        .CLK(CLK),
+        .Q(Q),
+        .nQ(nQ)
+    );
+
+endmodule
